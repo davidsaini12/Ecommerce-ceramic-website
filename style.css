@@ -5,8 +5,13 @@
     font-family:sans-serif;
 
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background-color:whitesmoke;
+    overflow-x: hidden;
+    
 }
 h1{
     font-size: 45px;
@@ -14,7 +19,7 @@ h1{
 }
 #header1{
     display: flex;
-    
+
     height: 100px;
     width:100%;
     padding: 34px;
@@ -22,6 +27,7 @@ h1{
     justify-content:space-between;
     background: #cda9cb4d;
     box-shadow: 4px 7px 16px 9px rgb(0 0 0 / 9%);
+    overflow-x: hidden;
 
 }
 #logo{
@@ -47,13 +53,13 @@ h1{
 
 #features{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
 .feat_box{
-    width:180px;
+   
     height:200px;
     text-align: center;
     padding: 25px 15px;
@@ -234,6 +240,7 @@ footer{
     padding-bottom: 15px;
     background-color: blanchedalmond;
 }
+
 .mobile-nav-btn{
     display: none;
     background: transparent;
@@ -246,7 +253,7 @@ footer{
 
 
 /* media queries for navbar */
-@media(max-width:800px){
+@media(max-width:1000px){
     .mobile-nav-btn{
         display: block;
         z-index: 999;
@@ -280,7 +287,7 @@ footer{
     .active #cross{
         display: block
     }
-       .footpad_inner{
+    .footpad_inner{
         font-size: small;
     }
     .foothead{
@@ -311,10 +318,11 @@ footer{
     .top_img{
         height:400px;
     }
-
-
-
 }
+
+      
+
+ 
 
 
 
