@@ -280,6 +280,37 @@ footer{
     .active #cross{
         display: block
     }
+       .footpad_inner{
+        font-size: small;
+    }
+    .foothead{
+        font-size: medium;
+
+    }
+    .footpad{
+        margin-left: -3px;
+    }
+    
+    .bnn1,.bnn2{
+        height: 10em;
+        margin-left: -9px;
+        
+    }
+    .foot{
+        display: flex;
+        justify-content: space-between;
+       margin-left: 11px;
+       margin-right: 40px;
+       margin-top: 4px;
+       height:272px;
+       align-items: center;
+
+
+
+    }
+    .top_img{
+        height:400px;
+    }
 
 
 
