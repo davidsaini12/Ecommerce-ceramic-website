@@ -184,25 +184,14 @@ h1{
     justify-content: space-between;
     padding-top: 3ch;
     margin-left: 15px;
+    width:100%;
+    height:auto;
 }
 .bnn1{
-    background-image: url("banner3.jpg");
-    height:400px;
-    width:45%;
-    overflow: visible;
-    background-size: cover;
-    border: 1px solid rgb(247, 227, 227);
-    border-radius: 5px;
-    box-shadow:  4px 7px 16px 9px rgb(0 0 0 / 10%);
+    width:50%;
 }
 .bnn2{
-    background-image: url("banner2.jpg");
-    height:400px;
-    width:45%;
-    background-size: cover;
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 5px;
-    box-shadow:  4px 7px 16px 9px rgb(0 0 0 / 10%);
+    width:50%;  
 }
 .foot{
     display: flex;
@@ -298,11 +287,7 @@ footer{
         margin-left: -3px;
     }
     
-    .bnn1,.bnn2{
-        height: 10em;
-        margin-left: -9px;
-        
-    }
+  
     .foot{
         display: flex;
         justify-content: space-between;
@@ -315,9 +300,7 @@ footer{
 
 
     }
-    .top_img{
-        height:290px;
-    }
+   
 }
 
       
