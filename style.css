@@ -154,6 +154,12 @@ h1{
     align-items: center;
     
 }
+.bnn1{
+    width:50%;
+}
+.bnn2{
+    width:50%;  
+}
 .btn{
     background-color: rgb(247, 246, 244);
     border-radius: 6px;
